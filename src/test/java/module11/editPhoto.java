@@ -15,8 +15,8 @@ public class editPhoto {
 	public void Login() throws InterruptedException {
 		driver.findElement(By.linkText("Log In")).click();
 		//Thread.sleep(1000);
-		driver.findElement(By.xpath("//input[@id='si_popup_email']")).sendKeys("tulikagetsmails@gmail.com");
-		driver.findElement(By.xpath("//input[@id='si_popup_passwd']")).sendKeys("123456789");
+		driver.findElement(By.xpath("//input[@id='si_popup_email']")).sendKeys("");
+		driver.findElement(By.xpath("//input[@id='si_popup_passwd']")).sendKeys("");
 		driver.findElement(By.xpath("//button[@class='clik_btn_log btn-block']")).click();
 		//My profile
 		 Thread.sleep(1000);
